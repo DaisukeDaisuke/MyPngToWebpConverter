@@ -52,6 +52,3 @@ foreach ($png in $files) {
 
     Write-Host -NoNewline "`rrename: [$bar] $percent% ($index/$total) ETA ${remain}s   `r"
 }
-
-Write-Host ""
-Write-Host "done: $total"
